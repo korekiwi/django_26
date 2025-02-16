@@ -1,0 +1,8 @@
+.venv/
+*__pycache__/
+.idea/
+.vscode/launch.json
+hw_315/
+PYTHON422 HW №25.md
+.env
+/Тема_Django_ORM_Q_запросы_Обработка_поисковой_формы_Урок_62.md
