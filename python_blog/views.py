@@ -84,6 +84,7 @@ def catalog_posts(request):
     page_obj = paginator.get_page(page_number)
 
     context = {
+        "request": request,
         "title": "Каталог постов",
         "posts": page_obj,
     }

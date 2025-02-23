@@ -35,7 +35,6 @@ class Post(models.Model):
     category = models.ForeignKey(
         "Category",
         on_delete=models.SET_NULL,
-        blank=True,
         null=True,
         related_name="posts",
         default=None,
